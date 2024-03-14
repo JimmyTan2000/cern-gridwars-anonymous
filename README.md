@@ -1,3 +1,9 @@
+# RESULT
+
+![win](win.png)
+
+---
+
 <pre>
          .    .        .      .             . .     .        .          .          .
   .    .          .                 .                    .                .    .
@@ -62,24 +68,26 @@
 </pre>
 
 ## GridWars Starter Project
+
 ---
+
 This starter project provides everything to get you going with the development of your own bot for the GridWars coding competition.
 
 Please refer to the [getting started page](https://gridwars.cern.ch/docs/getting-started) available online for a comprehensive guide. You can also refer to the PDF slides shipped in this starter project that explains the game mechanics and some rules.
 
 ### Project Content
 
-| Content        | Description |
-|----------------|-------------|
+| Content        | Description                                                                      |
+| -------------- | -------------------------------------------------------------------------------- |
 | `build.gradle` | Gradle build config file. You need to configure the class name of your bot here. |
-| `/src/`        | Source code to run the emulator and two simple example bots. |
-| `/slides/`     | Slides of the GridWars intro session. |
-| `/docs/`       | JavaDocs of the GridWars API classes. Open the `index.html` in a browser. |
-| `/lib/`        | GridWars API and the emulator Java libs (no need to touch). |
-| `/build/`      | Automatically generated, used for build output. |
-| `gradlew`      | Gradle wrapper executable for Linux and Mac (no need to touch). |
-| `gradlew.bat`  | Gradle wrapper executable for Windows (no need to touch). |
-| `/gradle/`     | Gradle wrapper files (no need to touch). |
+| `/src/`        | Source code to run the emulator and two simple example bots.                     |
+| `/slides/`     | Slides of the GridWars intro session.                                            |
+| `/docs/`       | JavaDocs of the GridWars API classes. Open the `index.html` in a browser.        |
+| `/lib/`        | GridWars API and the emulator Java libs (no need to touch).                      |
+| `/build/`      | Automatically generated, used for build output.                                  |
+| `gradlew`      | Gradle wrapper executable for Linux and Mac (no need to touch).                  |
+| `gradlew.bat`  | Gradle wrapper executable for Windows (no need to touch).                        |
+| `/gradle/`     | Gradle wrapper files (no need to touch).                                         |
 
 ### Run the emulator
 
@@ -99,7 +107,7 @@ Once you have created your own bot, you first need to fill in the fully qualifie
 
 ```
 manifest {
-    attributes( 
+    attributes(
         'Bot-Class-Name': 'gridwars.starter.MyAwesomeBot'
     )
 }
